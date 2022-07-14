@@ -934,6 +934,47 @@ code, .code { font-family: Consolas, Monaco, Monospace; }
 .mw-none { max-width: none; }
 /*
 
+   Base:
+     miw = min-width
+
+   Modifiers
+     1 = 1st step in width scale
+     2 = 2nd step in width scale
+     3 = 3rd step in width scale
+     4 = 4th step in width scale
+     5 = 5th step in width scale
+     6 = 6st step in width scale
+     7 = 7nd step in width scale
+     8 = 8rd step in width scale
+     9 = 9th step in width scale
+
+     -100 = literal value 100%
+
+     -none  = string value none
+
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
+*/
+/* Max Width Percentages */
+.miw-100 { min-width: 100%; }
+/* Max Width Scale */
+.miw1 { min-width: 1rem; }
+.miw2 { min-width: 2rem; }
+.miw3 { min-width: 4rem; }
+.miw4 { min-width: 8rem; }
+.miw5 { min-width: 16rem; }
+.miw6 { min-width: 32rem; }
+.miw7 { min-width: 48rem; }
+.miw8 { min-width: 64rem; }
+.miw9 { min-width: 96rem; }
+/* Max Width String Properties */
+.miw-none { min-width: none; }
+/*
+
    WIDTHS
    Docs: http://tachyons.io/docs/layout/widths/
 
@@ -2233,6 +2274,17 @@ code, .code { font-family: Consolas, Monaco, Monospace; }
  .mw8-ns { max-width: 64rem; }
  .mw9-ns { max-width: 96rem; }
  .mw-none-ns { max-width: none; }
+ .miw-100-ns { min-width: 100%; }
+ .miw1-ns { min-width: 1rem; }
+ .miw2-ns { min-width: 2rem; }
+ .miw3-ns { min-width: 4rem; }
+ .miw4-ns { min-width: 8rem; }
+ .miw5-ns { min-width: 16rem; }
+ .miw6-ns { min-width: 32rem; }
+ .miw7-ns { min-width: 48rem; }
+ .miw8-ns { min-width: 64rem; }
+ .miw9-ns { min-width: 96rem; }
+ .miw-none-ns { min-width: none; }
  .w1-ns { width: 1rem; }
  .w2-ns { width: 2rem; }
  .w3-ns { width: 4rem; }
@@ -2661,6 +2713,17 @@ code, .code { font-family: Consolas, Monaco, Monospace; }
  .mw8-m { max-width: 64rem; }
  .mw9-m { max-width: 96rem; }
  .mw-none-m { max-width: none; }
+ .miw-100-m { min-width: 100%; }
+ .miw1-m { min-width: 1rem; }
+ .miw2-m { min-width: 2rem; }
+ .miw3-m { min-width: 4rem; }
+ .miw4-m { min-width: 8rem; }
+ .miw5-m { min-width: 16rem; }
+ .miw6-m { min-width: 32rem; }
+ .miw7-m { min-width: 48rem; }
+ .miw8-m { min-width: 64rem; }
+ .miw9-m { min-width: 96rem; }
+ .miw-none-m { min-width: none; }
  .w1-m { width: 1rem; }
  .w2-m { width: 2rem; }
  .w3-m { width: 4rem; }
@@ -3089,6 +3152,17 @@ code, .code { font-family: Consolas, Monaco, Monospace; }
  .mw8-l { max-width: 64rem; }
  .mw9-l { max-width: 96rem; }
  .mw-none-l { max-width: none; }
+ .miw-100-l { min-width: 100%; }
+ .miw1-l { min-width: 1rem; }
+ .miw2-l { min-width: 2rem; }
+ .miw3-l { min-width: 4rem; }
+ .miw4-l { min-width: 8rem; }
+ .miw5-l { min-width: 16rem; }
+ .miw6-l { min-width: 32rem; }
+ .miw7-l { min-width: 48rem; }
+ .miw8-l { min-width: 64rem; }
+ .miw9-l { min-width: 96rem; }
+ .miw-none-l { min-width: none; }
  .w1-l { width: 1rem; }
  .w2-l { width: 2rem; }
  .w3-l { width: 4rem; }
